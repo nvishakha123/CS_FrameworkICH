@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [ICHTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="TestGroupContent(failed)">
+    <classes>
+      <class name="ich.ExContent">
+        <methods>
+          <include name="teardown"/>
+          <include name="searchSource"/>
+          <include name="sourceList"/>
+          <include name="addSource"/>
+          <include name="startChrome"/>
+        </methods>
+      </class> <!-- ich.ExContent -->
+    </classes>
+  </test> <!-- TestGroupContent(failed) -->
+  <test thread-count="5" parallel="tests" name="TestGroupLogin(failed)">
+    <classes>
+      <class name="ich.ExLogin">
+        <methods>
+          <include name="loginValidation"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- ich.ExLogin -->
+    </classes>
+  </test> <!-- TestGroupLogin(failed) -->
+  <test thread-count="5" parallel="tests" name="TestGroupInvite(failed)">
+    <classes>
+      <class name="ich.ExInvite">
+        <methods>
+          <include name="startChrome"/>
+          <include name="FailInviteAndAddNext"/>
+          <include name="inviteAndClose"/>
+          <include name="teardown"/>
+          <include name="editMember"/>
+        </methods>
+      </class> <!-- ich.ExInvite -->
+    </classes>
+  </test> <!-- TestGroupInvite(failed) -->
+  <test thread-count="5" parallel="tests" name="TestGroupLogout(failed)">
+    <classes>
+      <class name="ich.ExLogout">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="logoutTest"/>
+        </methods>
+      </class> <!-- ich.ExLogout -->
+    </classes>
+  </test> <!-- TestGroupLogout(failed) -->
+  <test thread-count="5" parallel="tests" name="TestGroupBoards(failed)">
+    <classes>
+      <class name="ich.Boards">
+        <methods>
+          <include name="FailTestCrateBoard"/>
+          <include name="startChrome"/>
+          <include name="tearDown"/>
+          <include name="testCrateBoard"/>
+        </methods>
+      </class> <!-- ich.Boards -->
+    </classes>
+  </test> <!-- TestGroupBoards(failed) -->
+  <test thread-count="5" parallel="tests" name="TestGroupNewsFeed(failed)">
+    <classes>
+      <class name="ich.NewsFeed">
+        <methods>
+          <include name="testKeyEventsFiltersClickable"/>
+          <include name="startChrome"/>
+          <include name="dropDown"/>
+          <include name="tearDown"/>
+          <include name="testSearch"/>
+          <include name="clickLink"/>
+        </methods>
+      </class> <!-- ich.NewsFeed -->
+    </classes>
+  </test> <!-- TestGroupNewsFeed(failed) -->
+  <test thread-count="5" parallel="tests" name="TestGroupSentimentAnalyser(failed)">
+    <classes>
+      <class name="ich.SentimentAnalyser">
+        <methods>
+          <include name="startChrome"/>
+          <include name="singleUploadImage"/>
+          <include name="testenterTextAndGenerateResult"/>
+          <include name="validationForEmptyUpload"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- ich.SentimentAnalyser -->
+    </classes>
+  </test> <!-- TestGroupSentimentAnalyser(failed) -->
+  <test thread-count="5" parallel="tests" name="TestGroupTrends(failed)">
+    <classes>
+      <class name="ich.Trends">
+        <methods>
+          <include name="openExpandOverallAnlysis"/>
+          <include name="tearDown"/>
+          <include name="startChrome"/>
+          <include name="addToArchive"/>
+          <include name="colorAndDownloadPdf"/>
+        </methods>
+      </class> <!-- ich.Trends -->
+    </classes>
+  </test> <!-- TestGroupTrends(failed) -->
+  <test thread-count="5" parallel="tests" name="TestGroupTickets(failed)">
+    <classes>
+      <class name="ich.ExTicket">
+        <methods>
+          <include name="testClickOnSubmit"/>
+          <include name="startChrome"/>
+          <include name="teardown"/>
+          <include name="testFailClickOnSubmit"/>
+        </methods>
+      </class> <!-- ich.ExTicket -->
+    </classes>
+  </test> <!-- TestGroupTickets(failed) -->
+</suite> <!-- Failed suite [ICHTestSuite] -->

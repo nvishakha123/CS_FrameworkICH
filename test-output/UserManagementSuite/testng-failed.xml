@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [UserManagementSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="LoginTests(failed)">
+    <classes>
+      <class name="ich.LoginNG">
+        <methods>
+          <include name="cleaupProc"/>
+          <include name="startChrome"/>
+          <include name="MyFirstTestNGTestCase"/>
+        </methods>
+      </class> <!-- ich.LoginNG -->
+    </classes>
+  </test> <!-- LoginTests(failed) -->
+  <test thread-count="5" name="DeginerTests(failed)">
+    <classes>
+      <class name="ich.DesingerPageNG">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginFunctioanlity"/>
+          <include name="preferenceArrow"/>
+          <include name="startChrome"/>
+          <include name="testDashboardElements"/>
+          <include name="testDropdown"/>
+        </methods>
+      </class> <!-- ich.DesingerPageNG -->
+    </classes>
+  </test> <!-- DeginerTests(failed) -->
+</suite> <!-- Failed suite [UserManagementSuite] -->
