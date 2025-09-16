@@ -1,48 +1,117 @@
-[INFO ] 2025-08-22 11:49:40.205 [main] Seleniumcicd - url opened
-[INFO ] 2025-08-22 11:49:40.518 [main] Seleniumcicd - username entered
-[INFO ] 2025-08-22 11:49:40.599 [main] Seleniumcicd - password entered
-[INFO ] 2025-08-22 11:49:40.686 [main] Seleniumcicd - login button cliked
-[INFO ] 2025-08-22 18:10:57.793 [main] Seleniumcicd - url opened
-[INFO ] 2025-08-22 18:10:58.171 [main] Seleniumcicd - username entered
-[INFO ] 2025-08-22 18:10:58.252 [main] Seleniumcicd - password entered
-[INFO ] 2025-08-22 18:10:58.383 [main] Seleniumcicd - login button cliked
-[INFO ] 2025-08-22 18:14:02.010 [main] Seleniumcicd - url opened
-[INFO ] 2025-08-22 18:14:02.333 [main] Seleniumcicd - username entered
-[INFO ] 2025-08-22 18:14:02.657 [main] Seleniumcicd - password entered
-[INFO ] 2025-08-22 18:14:03.226 [main] Seleniumcicd - login button cliked
-[INFO ] 2025-08-22 18:14:59.238 [main] Seleniumcicd - url opened
-[INFO ] 2025-08-22 18:14:59.531 [main] Seleniumcicd - username entered
-[INFO ] 2025-08-22 18:14:59.609 [main] Seleniumcicd - password entered
-[INFO ] 2025-08-22 18:14:59.681 [main] Seleniumcicd - login button cliked
-[INFO ] 2025-08-22 18:20:59.030 [main] Seleniumcicd - url opened
-[INFO ] 2025-08-22 18:20:59.492 [main] Seleniumcicd - username entered
-[INFO ] 2025-08-22 18:20:59.578 [main] Seleniumcicd - password entered
-[INFO ] 2025-08-22 18:20:59.670 [main] Seleniumcicd - login button cliked
-[INFO ] 2025-08-22 18:52:58.218 [main] Seleniumcicd - url opened
-[INFO ] 2025-08-22 18:52:58.531 [main] Seleniumcicd - username entered
-[INFO ] 2025-08-22 18:52:58.606 [main] Seleniumcicd - password entered
-[INFO ] 2025-08-22 18:52:58.716 [main] Seleniumcicd - login button cliked
-[INFO ] 2025-08-22 19:24:20.687 [main] Seleniumcicd - url opened
-[INFO ] 2025-08-22 19:24:21.018 [main] Seleniumcicd - username entered
-[INFO ] 2025-08-22 19:24:21.085 [main] Seleniumcicd - password entered
-[INFO ] 2025-08-22 19:24:21.142 [main] Seleniumcicd - login button cliked
-[INFO ] 2025-08-22 19:50:51.773 [main] Seleniumcicd - url opened
-[INFO ] 2025-08-22 19:50:52.092 [main] Seleniumcicd - username entered
-[INFO ] 2025-08-22 19:50:52.153 [main] Seleniumcicd - password entered
-[INFO ] 2025-08-22 19:50:52.215 [main] Seleniumcicd - login button cliked
-[INFO ] 2025-08-22 19:54:22.971 [main] Seleniumcicd - url opened
-[INFO ] 2025-08-22 19:54:23.281 [main] Seleniumcicd - username entered
-[INFO ] 2025-08-22 19:54:23.341 [main] Seleniumcicd - password entered
-[INFO ] 2025-08-22 19:54:23.420 [main] Seleniumcicd - login button cliked
-[INFO ] 2025-08-22 19:59:29.681 [main] Seleniumcicd - url opened
-[INFO ] 2025-08-22 19:59:29.977 [main] Seleniumcicd - username entered
-[INFO ] 2025-08-22 19:59:30.041 [main] Seleniumcicd - password entered
-[INFO ] 2025-08-22 19:59:30.104 [main] Seleniumcicd - login button cliked
-[INFO ] 2025-08-22 20:01:49.801 [main] Seleniumcicd - url opened
-[INFO ] 2025-08-22 20:01:50.081 [main] Seleniumcicd - username entered
-[INFO ] 2025-08-22 20:01:50.133 [main] Seleniumcicd - password entered
-[INFO ] 2025-08-22 20:01:50.187 [main] Seleniumcicd - login button cliked
-[INFO ] 2025-08-22 21:33:11.475 [main] Seleniumcicd - url opened
-[INFO ] 2025-08-22 21:33:11.832 [main] Seleniumcicd - username entered
-[INFO ] 2025-08-22 21:33:11.919 [main] Seleniumcicd - password entered
-[INFO ] 2025-08-22 21:33:12.009 [main] Seleniumcicd - login button cliked
+[INFO ] 2025-09-15 15:58:21.506 [main] Seleniumcicd - url opened
+[INFO ] 2025-09-15 15:58:21.786 [main] Seleniumcicd - username entered
+[INFO ] 2025-09-15 15:58:21.837 [main] Seleniumcicd - password entered
+[INFO ] 2025-09-15 15:58:21.895 [main] Seleniumcicd - login button clicked
+[INFO ] 2025-09-15 15:58:23.115 [main] Seleniumcicd - url opened
+[INFO ] 2025-09-15 15:59:39.572 [main] Seleniumcicd - url opened
+[INFO ] 2025-09-15 15:59:39.905 [main] Seleniumcicd - username entered
+[INFO ] 2025-09-15 15:59:39.960 [main] Seleniumcicd - password entered
+[INFO ] 2025-09-15 15:59:40.016 [main] Seleniumcicd - login button clicked
+[INFO ] 2025-09-15 15:59:41.063 [main] Seleniumcicd - url opened
+[INFO ] 2025-09-15 16:52:12.619 [main] Seleniumcicd - url opened
+[INFO ] 2025-09-15 16:52:15.330 [main] Seleniumcicd - username entered
+[INFO ] 2025-09-15 16:52:15.383 [main] Seleniumcicd - password entered
+[INFO ] 2025-09-15 16:52:15.418 [main] Seleniumcicd - login button clicked
+[INFO ] 2025-09-15 16:52:16.465 [main] Seleniumcicd - url opened
+[INFO ] 2025-09-15 16:52:16.692 [main] Seleniumcicd - username entered
+[INFO ] 2025-09-15 16:52:16.747 [main] Seleniumcicd - password entered
+[INFO ] 2025-09-15 16:52:16.774 [main] Seleniumcicd - login button clicked
+[INFO ] 2025-09-15 16:53:44.549 [main] Seleniumcicd - url opened
+[INFO ] 2025-09-15 16:53:44.867 [main] Seleniumcicd - username entered
+[INFO ] 2025-09-15 16:53:44.921 [main] Seleniumcicd - password entered
+[INFO ] 2025-09-15 16:53:44.954 [main] Seleniumcicd - login button clicked
+[INFO ] 2025-09-15 16:53:46.013 [main] Seleniumcicd - url opened
+[INFO ] 2025-09-15 16:53:46.210 [main] Seleniumcicd - username entered
+[INFO ] 2025-09-15 16:53:46.272 [main] Seleniumcicd - password entered
+[INFO ] 2025-09-15 16:53:46.302 [main] Seleniumcicd - login button clicked
+[INFO ] 2025-09-15 16:58:03.912 [main] Seleniumcicd - url opened
+[INFO ] 2025-09-15 16:58:04.234 [main] Seleniumcicd - username entered
+[INFO ] 2025-09-15 16:58:04.322 [main] Seleniumcicd - password entered
+[INFO ] 2025-09-15 16:58:04.361 [main] Seleniumcicd - login button clicked
+[INFO ] 2025-09-15 16:58:05.396 [main] Seleniumcicd - url opened
+[INFO ] 2025-09-15 16:58:05.559 [main] Seleniumcicd - username entered
+[INFO ] 2025-09-15 16:58:05.611 [main] Seleniumcicd - password entered
+[INFO ] 2025-09-15 16:58:05.633 [main] Seleniumcicd - login button clicked
+[INFO ] 2025-09-15 17:02:57.479 [main] Seleniumcicd - url opened
+[INFO ] 2025-09-15 17:02:57.804 [main] Seleniumcicd - username entered
+[INFO ] 2025-09-15 17:02:57.873 [main] Seleniumcicd - password entered
+[INFO ] 2025-09-15 17:02:57.932 [main] Seleniumcicd - login button clicked
+[INFO ] 2025-09-15 17:02:59.005 [main] Seleniumcicd - url opened
+[INFO ] 2025-09-15 17:02:59.214 [main] Seleniumcicd - username entered
+[INFO ] 2025-09-15 17:02:59.285 [main] Seleniumcicd - password entered
+[INFO ] 2025-09-15 17:02:59.314 [main] Seleniumcicd - login button clicked
+[INFO ] 2025-09-15 17:03:52.504 [main] Seleniumcicd - url opened
+[INFO ] 2025-09-15 17:03:53.885 [main] Seleniumcicd - username entered
+[INFO ] 2025-09-15 17:03:53.943 [main] Seleniumcicd - password entered
+[INFO ] 2025-09-15 17:03:53.975 [main] Seleniumcicd - login button clicked
+[INFO ] 2025-09-15 17:03:55.006 [main] Seleniumcicd - url opened
+[INFO ] 2025-09-15 17:03:55.212 [main] Seleniumcicd - username entered
+[INFO ] 2025-09-15 17:03:55.274 [main] Seleniumcicd - password entered
+[INFO ] 2025-09-15 17:03:55.302 [main] Seleniumcicd - login button clicked
+[INFO ] 2025-09-15 17:04:41.685 [main] Seleniumcicd - url opened
+[INFO ] 2025-09-15 17:04:41.968 [main] Seleniumcicd - username entered
+[INFO ] 2025-09-15 17:04:42.046 [main] Seleniumcicd - password entered
+[INFO ] 2025-09-15 17:04:42.081 [main] Seleniumcicd - login button clicked
+[INFO ] 2025-09-15 17:04:43.114 [main] Seleniumcicd - url opened
+[INFO ] 2025-09-15 17:04:43.321 [main] Seleniumcicd - username entered
+[INFO ] 2025-09-15 17:04:43.370 [main] Seleniumcicd - password entered
+[INFO ] 2025-09-15 17:04:43.392 [main] Seleniumcicd - login button clicked
+[INFO ] 2025-09-15 17:06:17.164 [main] Seleniumcicd - url opened
+[INFO ] 2025-09-15 17:06:17.444 [main] Seleniumcicd - username entered
+[INFO ] 2025-09-15 17:06:17.501 [main] Seleniumcicd - password entered
+[INFO ] 2025-09-15 17:06:17.531 [main] Seleniumcicd - login button clicked
+[INFO ] 2025-09-15 17:06:18.563 [main] Seleniumcicd - url opened
+[INFO ] 2025-09-15 17:06:18.778 [main] Seleniumcicd - username entered
+[INFO ] 2025-09-15 17:06:18.831 [main] Seleniumcicd - password entered
+[INFO ] 2025-09-15 17:06:18.854 [main] Seleniumcicd - login button clicked
+[INFO ] 2025-09-15 17:08:35.049 [main] Seleniumcicd - url opened
+[INFO ] 2025-09-15 17:08:35.752 [main] Seleniumcicd - username entered
+[INFO ] 2025-09-15 17:08:35.809 [main] Seleniumcicd - password entered
+[INFO ] 2025-09-15 17:08:35.838 [main] Seleniumcicd - login button clicked
+[INFO ] 2025-09-15 17:08:36.860 [main] Seleniumcicd - url opened
+[INFO ] 2025-09-15 17:08:37.065 [main] Seleniumcicd - username entered
+[INFO ] 2025-09-15 17:08:37.122 [main] Seleniumcicd - password entered
+[INFO ] 2025-09-15 17:08:37.147 [main] Seleniumcicd - login button clicked
+[INFO ] 2025-09-15 17:17:48.952 [main] Seleniumcicd - url opened
+[INFO ] 2025-09-15 17:17:49.296 [main] Seleniumcicd - username entered
+[INFO ] 2025-09-15 17:17:49.360 [main] Seleniumcicd - password entered
+[INFO ] 2025-09-15 17:17:49.394 [main] Seleniumcicd - login button clicked
+[INFO ] 2025-09-15 17:17:50.442 [main] Seleniumcicd - url opened
+[INFO ] 2025-09-15 17:17:50.655 [main] Seleniumcicd - username entered
+[INFO ] 2025-09-15 17:17:50.708 [main] Seleniumcicd - password entered
+[INFO ] 2025-09-15 17:17:50.733 [main] Seleniumcicd - login button clicked
+[INFO ] 2025-09-15 17:20:44.636 [main] Seleniumcicd - url opened
+[INFO ] 2025-09-15 17:20:44.951 [main] Seleniumcicd - username entered
+[INFO ] 2025-09-15 17:20:45.010 [main] Seleniumcicd - password entered
+[INFO ] 2025-09-15 17:20:45.040 [main] Seleniumcicd - login button clicked
+[INFO ] 2025-09-15 17:20:46.079 [main] Seleniumcicd - url opened
+[INFO ] 2025-09-15 17:20:46.300 [main] Seleniumcicd - username entered
+[INFO ] 2025-09-15 17:20:46.362 [main] Seleniumcicd - password entered
+[INFO ] 2025-09-15 17:20:46.386 [main] Seleniumcicd - login button clicked
+[INFO ] 2025-09-15 17:22:49.169 [main] Seleniumcicd - url opened
+[INFO ] 2025-09-15 17:22:49.503 [main] Seleniumcicd - username entered
+[INFO ] 2025-09-15 17:22:49.568 [main] Seleniumcicd - password entered
+[INFO ] 2025-09-15 17:22:49.600 [main] Seleniumcicd - login button clicked
+[INFO ] 2025-09-15 17:22:50.604 [main] Seleniumcicd - url opened
+[INFO ] 2025-09-15 17:22:51.013 [main] Seleniumcicd - username entered
+[INFO ] 2025-09-15 17:22:51.061 [main] Seleniumcicd - password entered
+[INFO ] 2025-09-15 17:22:51.083 [main] Seleniumcicd - login button clicked
+[INFO ] 2025-09-15 17:27:42.778 [main] Seleniumcicd - url opened
+[INFO ] 2025-09-15 17:27:43.127 [main] Seleniumcicd - username entered
+[INFO ] 2025-09-15 17:27:43.185 [main] Seleniumcicd - password entered
+[INFO ] 2025-09-15 17:27:43.219 [main] Seleniumcicd - login button clicked
+[INFO ] 2025-09-15 17:27:44.278 [main] Seleniumcicd - url opened
+[INFO ] 2025-09-15 17:27:44.470 [main] Seleniumcicd - username entered
+[INFO ] 2025-09-15 17:27:44.521 [main] Seleniumcicd - password entered
+[INFO ] 2025-09-15 17:27:44.545 [main] Seleniumcicd - login button clicked
+[INFO ] 2025-09-15 17:43:51.437 [main] Seleniumcicd - url opened
+[INFO ] 2025-09-15 17:43:51.808 [main] Seleniumcicd - username entered
+[INFO ] 2025-09-15 17:43:51.877 [main] Seleniumcicd - password entered
+[INFO ] 2025-09-15 17:43:51.913 [main] Seleniumcicd - login button clicked
+[INFO ] 2025-09-15 17:43:53.013 [main] Seleniumcicd - url opened
+[INFO ] 2025-09-15 17:43:53.231 [main] Seleniumcicd - username entered
+[INFO ] 2025-09-15 17:43:53.289 [main] Seleniumcicd - password entered
+[INFO ] 2025-09-15 17:43:53.315 [main] Seleniumcicd - login button clicked
+[INFO ] 2025-09-15 17:43:55.865 [main] Seleniumcicd - #########
+[INFO ] 2025-09-15 17:43:55.978 [main] Seleniumcicd - ####
+[INFO ] 2025-09-15 17:43:58.343 [main] Seleniumcicd - ######

@@ -10,7 +10,7 @@ public class ReadConfig {
 	
 	Properties properties;
 	
-	String path = "F:\\SeleniumWork\\Seleniumcicd\\Configuration\\config.properties";
+	String path = "D:\\F_Drive\\SeleniumWork\\Seleniumcicd\\Configuration\\config.properties";
 	
 	//constructor
 	public ReadConfig() {

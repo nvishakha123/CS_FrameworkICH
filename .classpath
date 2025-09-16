@@ -24,8 +24,8 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="F:/New_Testing/jar_files/slf4j-api-2.0.9.jar"/>
-	<classpathentry kind="lib" path="F:/New_Testing/jar_files/slf4j-simple-2.0.9.jar"/>
+	<classpathentry kind="lib" path="D:/F_Drive/New_Testing/jar_files/slf4j-api-2.0.9.jar"/>
+	<classpathentry kind="lib" path="D:/F_Drive/New_Testing/jar_files/slf4j-simple-2.0.9.jar"/>
 	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
@@ -34,8 +34,8 @@
 	</classpathentry>
 	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
 		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
 			<attribute name="test" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
 			<attribute name="optional" value="true"/>
 		</attributes>
 	</classpathentry>
