@@ -21,7 +21,7 @@ public class Targetsourcecicd{
 	WebDriver driver = new ChromeDriver();
 	public LogincicdPage loginPg;
 	public TargetPage targetPg;
-	public static Logger logger;
+	public static Logger logger = LogManager.getLogger(Targetsourcecicd.class);
 
 	@BeforeMethod
 	public void startChrome() throws InterruptedException {

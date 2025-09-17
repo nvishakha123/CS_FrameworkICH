@@ -22,7 +22,7 @@ public class BaseClass {
 	String browser = readConfig.getBrowser();
 	
 	public static WebDriver driver;
-	public static Logger logger;
+	public static Logger logger = LogManager.getLogger(BaseClass.class);;
 	
 	@BeforeClass
 	public void setUp() 

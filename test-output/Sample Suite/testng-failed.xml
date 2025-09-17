@@ -6,11 +6,8 @@
       <class name="com.fashion.testcases.Targetsourcecicd">
         <methods>
           <include name="startChrome"/>
-          <include name="tearDown"/>
           <include name="teardown"/>
-          <include name="setUp"/>
           <include name="searchSource"/>
-          <include name="loginFunctioanlity"/>
         </methods>
       </class> <!-- com.fashion.testcases.Targetsourcecicd -->
     </classes>
