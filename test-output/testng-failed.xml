@@ -3,13 +3,14 @@
 <suite name="Failed suite [Sample Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Sample Test(failed)">
     <classes>
-      <class name="com.fashion.testcases.Targetsourcecicd">
+      <class name="com.fashion.testcases.TC_LoginPage">
         <methods>
-          <include name="startChrome"/>
-          <include name="teardown"/>
-          <include name="searchSource"/>
+          <include name="verifyLogin"/>
+          <include name="verifyLoginwithinvalidcredentials"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.fashion.testcases.Targetsourcecicd -->
+      </class> <!-- com.fashion.testcases.TC_LoginPage -->
     </classes>
   </test> <!-- Sample Test(failed) -->
 </suite> <!-- Failed suite [Sample Suite] -->

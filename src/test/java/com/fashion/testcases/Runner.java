@@ -19,12 +19,5 @@ public class Runner extends BaseClass {
         testng.run();
     }
 	
-	@Test
-    public void verifyLoggingInJenkins() {
-        logger.info("✅ Jenkins logging test started!");
-        logger.debug("🔎 Debugging info from Runner test...");
-        logger.error("❌ Simulated error log from Runner test.");
-    }
-
-   
+	
 }

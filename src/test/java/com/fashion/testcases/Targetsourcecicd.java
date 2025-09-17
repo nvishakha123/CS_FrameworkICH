@@ -9,6 +9,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.fashion.pageobject.LogincicdPage;
@@ -16,6 +17,7 @@ import com.fashion.pageobject.TargetPage;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
+@Listeners(com.fashion.utilities.ExtentListenerClass.class)
 public class Targetsourcecicd{
 	
 	WebDriver driver = new ChromeDriver();

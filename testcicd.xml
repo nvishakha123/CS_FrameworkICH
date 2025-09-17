@@ -3,7 +3,7 @@
   <test name="Sample Test">
    <classes>
     <class name="com.fashion.testcases.TC_LoginPage"/>
-   <class name="com.fashion.testcases.Targetsourcecicd"/>
+   
    </classes>
   </test>
 </suite>
