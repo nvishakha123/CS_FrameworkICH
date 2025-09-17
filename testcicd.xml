@@ -2,7 +2,7 @@
 <suite name="MySuite" verbose="1">
     <test name="SampleTests">
         <classes>
-            <class name="com.fashion.testcases.TC_LoginPage"/>
+            <class name="com.fashion.testcases.TC_LoginPagea"/>
         </classes>
     </test>
 </suite>
