@@ -54,3 +54,12 @@
 [INFO ] 2025-09-17 15:07:44.588 [main] Seleniumcicd - enter user name
 [INFO ] 2025-09-17 15:07:44.782 [main] Seleniumcicd - enter password
 [INFO ] 2025-09-17 15:07:45.797 [main] Seleniumcicd - click login
+[INFO ] 2025-09-17 17:58:46.369 [main] Seleniumcicd - *******************************Login start********************************************
+[INFO ] 2025-09-17 17:58:47.652 [main] Seleniumcicd - url opened
+[INFO ] 2025-09-17 17:58:48.065 [main] Seleniumcicd - username entered
+[INFO ] 2025-09-17 17:58:48.124 [main] Seleniumcicd - password entered
+[INFO ] 2025-09-17 17:58:48.161 [main] Seleniumcicd - login button clicked
+[INFO ] 2025-09-17 17:58:49.306 [main] Seleniumcicd - url opened
+[INFO ] 2025-09-17 17:58:49.509 [main] Seleniumcicd - wrong username entered
+[INFO ] 2025-09-17 17:58:49.567 [main] Seleniumcicd - wrong password entered
+[INFO ] 2025-09-17 17:58:49.591 [main] Seleniumcicd - login button clicked
