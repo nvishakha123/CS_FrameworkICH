@@ -2,46 +2,46 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-17T13:05:30 IST" name="Sample Suite" finished-at="2025-09-17T13:05:43 IST" duration-ms="12435">
+  <suite started-at="2025-09-17T13:18:28 IST" name="Sample Suite" finished-at="2025-09-17T13:18:41 IST" duration-ms="12680">
     <groups>
     </groups>
-    <test started-at="2025-09-17T13:05:30 IST" name="Sample Test" finished-at="2025-09-17T13:05:43 IST" duration-ms="12435">
+    <test started-at="2025-09-17T13:18:28 IST" name="Sample Test" finished-at="2025-09-17T13:18:41 IST" duration-ms="12680">
       <class name="com.fashion.testcases.Targetsourcecicd">
-        <test-method is-config="true" signature="startChrome()[pri:0, instance:com.fashion.testcases.Targetsourcecicd@4d18aa28]" started-at="2025-09-17T13:05:36 IST" name="startChrome" finished-at="2025-09-17T13:05:37 IST" duration-ms="1008" status="PASS">
+        <test-method is-config="true" signature="startChrome()[pri:0, instance:com.fashion.testcases.Targetsourcecicd@2a037324]" started-at="2025-09-17T13:18:33 IST" name="startChrome" finished-at="2025-09-17T13:18:34 IST" duration-ms="1094" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startChrome -->
-        <test-method signature="loginFunctioanlity()[pri:1, instance:com.fashion.testcases.Targetsourcecicd@4d18aa28]" started-at="2025-09-17T13:05:37 IST" name="loginFunctioanlity" finished-at="2025-09-17T13:05:38 IST" duration-ms="1562" status="PASS">
+        <test-method signature="loginFunctioanlity()[pri:1, instance:com.fashion.testcases.Targetsourcecicd@2a037324]" started-at="2025-09-17T13:18:34 IST" name="loginFunctioanlity" finished-at="2025-09-17T13:18:36 IST" duration-ms="1569" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginFunctioanlity -->
-        <test-method is-config="true" signature="startChrome()[pri:0, instance:com.fashion.testcases.Targetsourcecicd@4d18aa28]" started-at="2025-09-17T13:05:38 IST" name="startChrome" finished-at="2025-09-17T13:05:38 IST" duration-ms="283" status="PASS">
+        <test-method is-config="true" signature="startChrome()[pri:0, instance:com.fashion.testcases.Targetsourcecicd@2a037324]" started-at="2025-09-17T13:18:36 IST" name="startChrome" finished-at="2025-09-17T13:18:36 IST" duration-ms="329" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startChrome -->
-        <test-method signature="searchSource()[pri:2, instance:com.fashion.testcases.Targetsourcecicd@4d18aa28]" started-at="2025-09-17T13:05:38 IST" name="searchSource" finished-at="2025-09-17T13:05:40 IST" duration-ms="1159" status="PASS">
+        <test-method signature="searchSource()[pri:2, instance:com.fashion.testcases.Targetsourcecicd@2a037324]" started-at="2025-09-17T13:18:36 IST" name="searchSource" finished-at="2025-09-17T13:18:37 IST" duration-ms="1027" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchSource -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.fashion.testcases.Targetsourcecicd@4d18aa28]" started-at="2025-09-17T13:05:40 IST" name="teardown" finished-at="2025-09-17T13:05:43 IST" duration-ms="3175" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.fashion.testcases.Targetsourcecicd@2a037324]" started-at="2025-09-17T13:18:37 IST" name="teardown" finished-at="2025-09-17T13:18:41 IST" duration-ms="3229" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.fashion.testcases.Targetsourcecicd -->
       <class name="com.fashion.testcases.TC_LoginPage">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.fashion.testcases.TC_LoginPage@17f7cd29]" started-at="2025-09-17T13:05:30 IST" name="setUp" finished-at="2025-09-17T13:05:32 IST" duration-ms="1453" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.fashion.testcases.TC_LoginPage@349c1daf]" started-at="2025-09-17T13:18:28 IST" name="setUp" finished-at="2025-09-17T13:18:29 IST" duration-ms="1088" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyLogin()[pri:1, instance:com.fashion.testcases.TC_LoginPage@17f7cd29]" started-at="2025-09-17T13:05:32 IST" name="verifyLogin" finished-at="2025-09-17T13:05:34 IST" duration-ms="2239" status="PASS">
+        <test-method signature="verifyLogin()[pri:1, instance:com.fashion.testcases.TC_LoginPage@349c1daf]" started-at="2025-09-17T13:18:29 IST" name="verifyLogin" finished-at="2025-09-17T13:18:31 IST" duration-ms="2489" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method signature="verifyLoginwithinvalidcredentials()[pri:2, instance:com.fashion.testcases.TC_LoginPage@17f7cd29]" started-at="2025-09-17T13:05:34 IST" name="verifyLoginwithinvalidcredentials" finished-at="2025-09-17T13:05:35 IST" duration-ms="1280" status="PASS">
+        <test-method signature="verifyLoginwithinvalidcredentials()[pri:2, instance:com.fashion.testcases.TC_LoginPage@349c1daf]" started-at="2025-09-17T13:18:31 IST" name="verifyLoginwithinvalidcredentials" finished-at="2025-09-17T13:18:33 IST" duration-ms="1601" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginwithinvalidcredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.fashion.testcases.TC_LoginPage@17f7cd29]" started-at="2025-09-17T13:05:35 IST" name="tearDown" finished-at="2025-09-17T13:05:36 IST" duration-ms="234" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.fashion.testcases.TC_LoginPage@349c1daf]" started-at="2025-09-17T13:18:33 IST" name="tearDown" finished-at="2025-09-17T13:18:33 IST" duration-ms="205" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
