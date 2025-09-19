@@ -4,34 +4,36 @@ import java.time.Duration;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.fashion.pageobject.LogincicdPage;
-import com.fashion.pageobject.TargetPage;
+import com.fashion.pageobject.NewsFeedPage;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 @Listeners(com.fashion.utilities.ExtentListenerClass.class)
-public class Targetsourcecicd{
-	
+public class Logoutcicd {
 	WebDriver driver = new ChromeDriver();
 	public LogincicdPage loginPg;
-	public TargetPage targetPg;
-	public static Logger logger = LogManager.getLogger(Targetsourcecicd.class);
+	public NewsFeedPage newsfeedPg;
+	public static Logger logger = LogManager.getLogger(Logoutcicd.class);
 
 	@BeforeMethod
 	public void startChrome() throws InterruptedException {
 
 		WebDriverManager.chromedriver().setup();
 		loginPg = new LogincicdPage(driver);
-		targetPg = new TargetPage(driver);
-		driver.get("https://ichnextlabs.ai/auth/login");
+		newsfeedPg = new NewsFeedPage(driver);
+		driver.get(Routescicd.linkcicd);
 		logger = LogManager.getLogger("Seleniumcicd");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1000));
@@ -39,7 +41,7 @@ public class Targetsourcecicd{
 
 	// Testcase to Verify the login user with valid credentials
 	@Test(priority = 1, enabled = true)
-	public void loginFunctioanlity() throws InterruptedException {
+	public void loginFunctionality() throws InterruptedException {
 		Thread.sleep(300);
 		loginPg.enterUserName(Routescicd.usernamecicd);
 		logger.info("enter user name");
@@ -51,25 +53,25 @@ public class Targetsourcecicd{
 		logger.info("click login");
 
 	}
-
-	// User should be able to search handle
-	@Test(priority = 2, enabled = true)
-	public void searchSource() throws InterruptedException {
-		Thread.sleep(300);
-		WebElement clickContent= targetPg.content_btn();
-		clickContent.click();Thread.sleep(100);
-		logger.info("click content");
-		WebElement clickSource= targetPg.source_btn();
-		clickSource.click();Thread.sleep(100);
-		logger.info("click source");
-		targetPg.enterSearchName("Bodice");
-		logger.info("Got searched result");
-		
+	
+	@Test(priority = 2, enabled=true) 
+	  public void logoutTest() throws InterruptedException {
+	  
+	  WebElement logout_svg = driver.findElement(By.xpath("//*[name()='svg'and @class ='w-4 h-4 transition-transform duration-300 ']"));
+		Actions act = new Actions(driver);
+		act.moveToElement(logout_svg).click().build().perform();
+		Thread.sleep(2000);
+		WebElement logout_btn = driver.findElement(By.xpath("//button[text()='Logout']"));
+		if (logout_btn.isDisplayed() && logout_btn.isEnabled()) {
+			logout_btn.click();
+			System.out.println("User logged out successfully");
+		} else {
+			System.out.println("Not LoggedOut");
+		}
 	}
 	
-	@AfterTest
-	public void teardown() throws InterruptedException {
-		Thread.sleep(3000);
+	@AfterClass
+	public void teardown() {
 		if (driver != null) {
 			driver.quit();
 		}

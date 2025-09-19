@@ -1,9 +1,11 @@
 package com.fashion.testcases;
 
 import java.time.Duration;
+import java.util.ArrayList;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -13,25 +15,24 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.fashion.pageobject.LogincicdPage;
-import com.fashion.pageobject.TargetPage;
+import com.fashion.pageobject.NewsFeedPage;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 @Listeners(com.fashion.utilities.ExtentListenerClass.class)
-public class Targetsourcecicd{
-	
+public class NewsFeedcicd {
 	WebDriver driver = new ChromeDriver();
 	public LogincicdPage loginPg;
-	public TargetPage targetPg;
-	public static Logger logger = LogManager.getLogger(Targetsourcecicd.class);
+	public NewsFeedPage newsfeedPg;
+	public static Logger logger = LogManager.getLogger(NewsFeedcicd.class);
 
 	@BeforeMethod
 	public void startChrome() throws InterruptedException {
 
 		WebDriverManager.chromedriver().setup();
 		loginPg = new LogincicdPage(driver);
-		targetPg = new TargetPage(driver);
-		driver.get("https://ichnextlabs.ai/auth/login");
+		newsfeedPg = new NewsFeedPage(driver);
+		driver.get(Routescicd.linkcicd);
 		logger = LogManager.getLogger("Seleniumcicd");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1000));
@@ -39,7 +40,7 @@ public class Targetsourcecicd{
 
 	// Testcase to Verify the login user with valid credentials
 	@Test(priority = 1, enabled = true)
-	public void loginFunctioanlity() throws InterruptedException {
+	public void loginFunctionality() throws InterruptedException {
 		Thread.sleep(300);
 		loginPg.enterUserName(Routescicd.usernamecicd);
 		logger.info("enter user name");
@@ -52,26 +53,45 @@ public class Targetsourcecicd{
 
 	}
 
-	// User should be able to search handle
 	@Test(priority = 2, enabled = true)
-	public void searchSource() throws InterruptedException {
-		Thread.sleep(300);
-		WebElement clickContent= targetPg.content_btn();
-		clickContent.click();Thread.sleep(100);
-		logger.info("click content");
-		WebElement clickSource= targetPg.source_btn();
-		clickSource.click();Thread.sleep(100);
-		logger.info("click source");
-		targetPg.enterSearchName("Bodice");
-		logger.info("Got searched result");
-		
+	public void testSearchFeed() throws InterruptedException {
+
+		WebElement clickfeed= newsfeedPg.feed_btn();
+		clickfeed.click();Thread.sleep(100);
+
+		WebElement clicknewsfeed= newsfeedPg.newsfeed_btn();
+		clicknewsfeed.click();Thread.sleep(100);
+		newsfeedPg.enterSearchName("Economic");Thread.sleep(1200);
+
+	}
+
+	@Test(priority = 3, enabled = true)
+	public void clickLinkFeed() throws InterruptedException {
+
+		WebElement clickfeed= newsfeedPg.feed_btn();
+		clickfeed.click();Thread.sleep(100);
+
+		WebElement clicknewsfeed= newsfeedPg.newsfeed_btn();
+		clicknewsfeed.click();Thread.sleep(100);
+
+		WebElement new_click = driver.findElement(By.xpath("//a[@class='underline line-clamp-3 text-primary font-bold']"));
+		new_click.click();
+
+		ArrayList<String> newTb = new ArrayList<String>(driver.getWindowHandles());
+		// switch to new tab
+		driver.switchTo().window(newTb.get(1));
+		System.out.println("Page title of new tab: " + driver.getTitle());
+		driver.close();
+		// switch to parent window
+		driver.switchTo().window(newTb.get(0));
 	}
 	
 	@AfterTest
 	public void teardown() throws InterruptedException {
-		Thread.sleep(3000);
+		Thread.sleep(1000);
 		if (driver != null) {
 			driver.quit();
 		}
 	}
+
 }

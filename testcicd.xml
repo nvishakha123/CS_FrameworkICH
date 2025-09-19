@@ -2,7 +2,16 @@
 <suite name="MySuite" verbose="1">
     <test name="SampleTests">
         <classes>
-            <class name="com.fashion.testcases.TC_LoginPage"/>
+           <class name="com.fashion.testcases.TC_LoginPage"/>
+             <class name="com.fashion.testcases.Targetsourcecicd"/> 
+             <class name="com.fashion.testcases.ForgotPasswordcicd"/>
+             <class name="com.fashion.testcases.SentimentAnalysercicd"/>
+             <class name="com.fashion.testcases.Ticketcicd"/>
+             <class name="com.fashion.testcases.Designercicd"/>
+             <class name="com.fashion.testcases.Trendscicd"/> 
+             
+             
+              
         </classes>
     </test>
 </suite>

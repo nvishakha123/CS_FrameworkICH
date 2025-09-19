@@ -63,3 +63,45 @@
 [INFO ] 2025-09-17 17:58:49.509 [main] Seleniumcicd - wrong username entered
 [INFO ] 2025-09-17 17:58:49.567 [main] Seleniumcicd - wrong password entered
 [INFO ] 2025-09-17 17:58:49.591 [main] Seleniumcicd - login button clicked
+[INFO ] 2025-09-19 13:38:26.900 [main] Seleniumcicd - click login
+[INFO ] 2025-09-19 13:39:57.542 [main] Seleniumcicd - click login
+[INFO ] 2025-09-19 13:42:07.005 [main] Seleniumcicd - enter user name
+[INFO ] 2025-09-19 13:42:07.062 [main] Seleniumcicd - enter password
+[INFO ] 2025-09-19 13:42:07.959 [main] Seleniumcicd - click login
+[INFO ] 2025-09-19 13:43:12.911 [main] Seleniumcicd - enter user name
+[INFO ] 2025-09-19 13:43:12.976 [main] Seleniumcicd - enter password
+[INFO ] 2025-09-19 13:43:13.855 [main] Seleniumcicd - click login
+[INFO ] 2025-09-19 13:45:22.875 [main] Seleniumcicd - enter user name
+[INFO ] 2025-09-19 13:45:22.933 [main] Seleniumcicd - enter password
+[INFO ] 2025-09-19 13:45:23.822 [main] Seleniumcicd - click login
+[INFO ] 2025-09-19 13:47:11.612 [main] Seleniumcicd - enter user name
+[INFO ] 2025-09-19 13:47:11.677 [main] Seleniumcicd - enter password
+[INFO ] 2025-09-19 13:47:12.566 [main] Seleniumcicd - click login
+[INFO ] 2025-09-19 13:50:47.485 [main] Seleniumcicd - enter user name
+[INFO ] 2025-09-19 13:50:47.551 [main] Seleniumcicd - enter password
+[INFO ] 2025-09-19 13:50:48.431 [main] Seleniumcicd - click login
+[INFO ] 2025-09-19 13:51:07.403 [main] Seleniumcicd - Upload field is empty.
+[INFO ] 2025-09-19 13:56:39.511 [main] Seleniumcicd - enter user name
+[INFO ] 2025-09-19 13:56:39.579 [main] Seleniumcicd - enter password
+[INFO ] 2025-09-19 13:56:40.477 [main] Seleniumcicd - click login
+[INFO ] 2025-09-19 13:56:59.761 [main] Seleniumcicd - Upload field is empty.
+[INFO ] 2025-09-19 13:58:16.847 [main] Seleniumcicd - enter user name
+[INFO ] 2025-09-19 13:58:16.900 [main] Seleniumcicd - enter password
+[INFO ] 2025-09-19 13:58:17.792 [main] Seleniumcicd - click login
+[INFO ] 2025-09-19 13:58:36.839 [main] Seleniumcicd - Upload field is empty.
+[INFO ] 2025-09-19 15:31:36.304 [main] Seleniumcicd - enter user name
+[INFO ] 2025-09-19 15:31:36.465 [main] Seleniumcicd - enter password
+[INFO ] 2025-09-19 15:31:36.555 [main] Seleniumcicd - click login
+[INFO ] 2025-09-19 15:33:34.161 [main] Seleniumcicd - enter user name
+[INFO ] 2025-09-19 15:33:34.236 [main] Seleniumcicd - enter password
+[INFO ] 2025-09-19 15:33:35.133 [main] Seleniumcicd - click login
+[INFO ] 2025-09-19 16:21:55.559 [main] Seleniumcicd - enter user name
+[INFO ] 2025-09-19 16:21:55.720 [main] Seleniumcicd - enter password
+[INFO ] 2025-09-19 16:21:56.615 [main] Seleniumcicd - click login
+[INFO ] 2025-09-19 16:22:17.173 [main] Seleniumcicd - Upload field is empty.
+[INFO ] 2025-09-19 16:23:35.515 [main] Seleniumcicd - enter user name
+[INFO ] 2025-09-19 16:23:35.576 [main] Seleniumcicd - enter password
+[INFO ] 2025-09-19 16:23:36.466 [main] Seleniumcicd - click login
+[INFO ] 2025-09-19 16:23:37.408 [main] Seleniumcicd - click content
+[INFO ] 2025-09-19 16:23:37.717 [main] Seleniumcicd - click source
+[INFO ] 2025-09-19 16:23:37.868 [main] Seleniumcicd - Got searched result

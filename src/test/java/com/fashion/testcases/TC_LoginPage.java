@@ -1,17 +1,18 @@
 package com.fashion.testcases;
 
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.fashion.pageobject.LogincicdPage;
 
 @Listeners(com.fashion.utilities.ExtentListenerClass.class)
-public class TC_LoginPage extends BaseClass{
-	
-	@Test(priority=1, enabled=true)
+public class TC_LoginPage extends BaseClass {
+
+	@Test(priority = 1, enabled = true)
 	public void verifyLogin() throws InterruptedException {
 		logger.info("*******************************Login start********************************************");
-		//open url
+		// open url
 		driver.get(url);
 		logger.info("url opened");
 		System.out.println("Hello from test");
@@ -27,11 +28,11 @@ public class TC_LoginPage extends BaseClass{
 		System.out.println("Hello from test2");
 		Thread.sleep(800);
 	}
-	
-	@Test(priority=2, enabled=true)
+
+	@Test(priority = 2, enabled = true)
 	public void verifyLoginwithinvalidcredentials() throws InterruptedException {
-		
-		//open url
+
+		// open url
 		driver.get(url);
 		logger.info("url opened");
 		Thread.sleep(100);
@@ -44,5 +45,5 @@ public class TC_LoginPage extends BaseClass{
 		logger.info("login button clicked");
 		Thread.sleep(800);
 	}
-	
+
 }
