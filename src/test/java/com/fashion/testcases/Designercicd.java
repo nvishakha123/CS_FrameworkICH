@@ -88,7 +88,7 @@ public class Designercicd {
 		Thread.sleep(1000);
 		WebElement clickSearch = designerPg.clicksearch();
 		clickSearch.click();
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 		
 		try {
 			WebElement errorMsg = driver.findElement(By.xpath("//div[contains(text(),'Error while fetching posts')]"));

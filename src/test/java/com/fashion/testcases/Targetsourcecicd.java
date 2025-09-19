@@ -7,6 +7,7 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
@@ -67,9 +68,8 @@ public class Targetsourcecicd{
 		
 	}
 	
-	@AfterTest
-	public void teardown() throws InterruptedException {
-		Thread.sleep(3000);
+	@AfterClass
+	public void teardown() {
 		if (driver != null) {
 			driver.quit();
 		}
